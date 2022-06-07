@@ -12,6 +12,15 @@
     @apply text-heavy;
   }
 
+  input,
+  textarea {
+    @apply w-11/12 border-b border-gray-500 bg-transparent py-4 focus:border-white focus:outline-none;
+  }
+
+  label {
+    @apply sr-only;
+  }
+
   section {
     @apply px-4;
   }
@@ -28,6 +37,10 @@
 }
 
 @layer utilities {
+  .btn {
+    @apply w-max rounded-full bg-red-300 py-4 px-8 text-gray-900;
+  }
+
   .text-heavy {
     @apply text-3xl font-extrabold;
   }
