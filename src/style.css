@@ -7,8 +7,13 @@
     @apply mt-4 text-center;
   }
 
-  h3 {
+  h3,
+  section > h2 {
     @apply text-heavy;
+  }
+
+  section {
+    @apply px-4;
   }
 }
 
