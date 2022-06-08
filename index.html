@@ -348,16 +348,25 @@
       </section>
     </main>
 
-    <footer>
-      <small>&copy; 2022 Big Strawberry Toys, LLC. No rights reserved.</small>
+    <footer class="bg-black py-12 px-4 text-white">
+      <small class="text-sm"
+        >&copy; 2022 Big Strawberry Toys, LLC. No rights reserved.</small
+      >
 
-      <form>
-        <label for="email-sign-up">Sign up for our newsletter</label>
-        <input type="email" id="email-sign-up" />
-        <button type="submit">Sign Up</button>
+      <form class="flex flex-col gap-4 py-8">
+        <label for="email-sign-up" class="font-semibold capitalize"
+          >Sign up for our newsletter 👇🏾</label
+        >
+        <input
+          type="email"
+          id="email-sign-up"
+          placeholder="✉️"
+          class="mb-4 py-2"
+        />
+        <button type="submit" class="btn">Sign Up</button>
       </form>
 
-      <ul>
+      <ul class="flex justify-between">
         <li><a href="#products">Products</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
