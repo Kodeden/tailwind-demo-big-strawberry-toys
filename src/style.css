@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  figcaption {
-    @apply mt-4 text-center;
-  }
-
   h3,
   section > h2 {
     @apply text-heavy;
@@ -33,6 +29,10 @@
 
   .card img {
     @apply h-72 w-72 rounded-full;
+  }
+
+  .card figcaption {
+    @apply mt-4 text-center;
   }
 }
 
