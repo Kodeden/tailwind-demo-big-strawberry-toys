@@ -7,15 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>🍓 Big Strawberry Toys</title>
   </head>
+
   <body>
     <header class="relative flex items-center gap-8 px-4 py-8">
-      <h1 class="mr-auto text-xl font-bold">
+      <h1 class="mr-auto text-xl font-bold lg:text-2xl">
         <span class="mr-1">🍓</span> Big Strawberry Toys
       </h1>
 
-      <a href="#contact" class="btn hidden md:block">Contact Us</a>
+      <a href="#contact" class="btn hidden md:block lg:order-1">Contact Us</a>
 
-      <div class="flex flex-col gap-[5px]" id="hamburger-container">
+      <div class="flex flex-col gap-[5px] lg:hidden" id="hamburger-container">
         <span
           class="inline-block h-1 w-6 border-t-[3px] border-solid border-black"
         ></span>
@@ -30,9 +31,11 @@
       </div>
 
       <nav
-        class="absolute left-0 top-24 h-screen w-full origin-top scale-y-0 bg-white p-4 opacity-0 transition duration-300 ease-in-out"
+        class="absolute left-0 top-24 h-screen w-full origin-top scale-y-0 bg-white p-4 opacity-0 transition duration-300 ease-in-out lg:static lg:h-auto lg:w-1/2 lg:scale-y-100 lg:opacity-100"
       >
-        <ul class="text-2xl font-extrabold">
+        <ul
+          class="text-2xl font-extrabold lg:flex lg:justify-between lg:text-xl lg:font-semibold"
+        >
           <!-- TODO: Turn gray on hover. -->
           <li><a href="#products">Products</a></li>
           <li><a href="#about">About</a></li>
@@ -40,7 +43,7 @@
           <li><a href="#testimonials">Testimonials</a></li>
         </ul>
 
-        <footer class="mt-6">
+        <footer class="mt-6 lg:hidden">
           <p class="mb-2">
             <a href="mailto:fake@bigstrawberrytoys.com"
               >✉️&nbsp;fake@bigstrawberrytoys.com</a
