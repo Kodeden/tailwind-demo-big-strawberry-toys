@@ -22,7 +22,7 @@
   }
 
   footer > * {
-    @apply md:mx-auto md:max-w-md;
+    @apply md:mx-auto md:max-w-md lg:mx-16 lg:max-w-xl;
   }
 }
 
