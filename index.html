@@ -58,32 +58,36 @@
 
     <main>
       <section
-        class="flex flex-col gap-16 bg-black py-16 text-white md:items-center md:gap-8"
+        class="flex flex-col gap-16 bg-black py-16 text-white md:items-center md:gap-8 lg:flex-row lg:gap-24 lg:px-16"
       >
         <img
           src="./images/hero.jpg"
           alt="Baby sitting on white cloth surrounded
         by toys"
-          class="inline-block rounded-xl md:max-w-screen-sm"
+          class="inline-block rounded-xl md:max-w-screen-sm lg:order-1 lg:w-[70%]"
         />
-        <h2
-          class="text-heavy leading-10 md:max-w-md md:text-center md:leading-relaxed"
+
+        <div
+          class="flex h-full flex-col items-center justify-between gap-8 lg:items-start"
         >
-          We
-
-          <span
-            class="relative after:absolute after:left-0 after:top-[90%] after:h-full after:w-full after:bg-[url('../images/highlight.svg')] after:bg-contain after:bg-no-repeat"
-            >Help You</span
+          <h2
+            class="text-heavy md:max-w-md md:text-center md:leading-relaxed lg:text-left lg:text-4xl lg:leading-[1.55]"
           >
-          Nurture Your Little One 🍓 with Fun, Fun, Fun! 🎈
-        </h2>
+            We
+            <span
+              class="relative after:absolute after:left-0 after:top-[90%] after:h-full after:w-full after:bg-[url('../images/highlight.svg')] after:bg-contain after:bg-no-repeat"
+              >Help You</span
+            >
+            Nurture Your Little One 🍓 with Fun, Fun, Fun! 🎈
+          </h2>
 
-        <p class="md:max-w-lg md:text-center">
-          Watch your little one 🍓 grow up with us! We create custom toys built
-          with your 🧒🏾's imagination 💭.
-        </p>
+          <p class="md:max-w-lg md:text-center lg:text-left">
+            Watch your little one 🍓 grow up with us! We create custom toys
+            built with your 🧒🏾's imagination 💭.
+          </p>
 
-        <a href="#contact" class="btn">Contact Us</a>
+          <a href="#contact" class="btn">Contact Us</a>
+        </div>
       </section>
 
       <section id="products" class="flex flex-col items-center py-16">
