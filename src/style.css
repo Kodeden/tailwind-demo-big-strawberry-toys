@@ -28,7 +28,7 @@
 
 @layer components {
   .card {
-    @apply my-2 flex w-full flex-col items-center gap-8 rounded-3xl bg-gray-300 p-8 text-center md:max-w-md;
+    @apply my-2 flex w-full flex-col items-center gap-8 rounded-3xl bg-gray-300 p-8 text-center md:max-w-md lg:max-w-sm;
   }
 
   .card figure {
