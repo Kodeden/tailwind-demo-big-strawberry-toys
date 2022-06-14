@@ -10,7 +10,7 @@
 
   input,
   textarea {
-    @apply w-11/12 border-b border-gray-500 bg-transparent py-4 focus:border-white focus:outline-none;
+    @apply w-11/12 border-b border-gray-500 bg-transparent py-4 focus:border-white focus:outline-none md:w-96;
   }
 
   section label {
@@ -20,11 +20,19 @@
   section {
     @apply px-4;
   }
+
+  footer > * {
+    @apply md:mx-auto md:max-w-md;
+  }
 }
 
 @layer components {
   .card {
-    @apply my-2 flex w-full flex-col items-center gap-8 rounded-3xl bg-gray-300 p-8 text-center;
+    @apply my-2 flex w-full flex-col items-center gap-8 rounded-3xl bg-gray-300 p-8 text-center md:max-w-md;
+  }
+
+  .card figure {
+    @apply flex flex-col items-center;
   }
 
   .card img {
@@ -32,7 +40,11 @@
   }
 
   .card figcaption {
-    @apply mt-4 text-center;
+    @apply mt-4;
+  }
+
+  #testimonials section {
+    @apply md:mx-auto md:max-w-lg;
   }
 }
 
