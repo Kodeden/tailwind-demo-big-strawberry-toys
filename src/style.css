@@ -50,7 +50,7 @@
 
 @layer utilities {
   .btn {
-    @apply w-max rounded-full bg-red-300 py-4 px-8 text-gray-900;
+    @apply w-max rounded-full bg-red-300 py-4 px-8 font-bold text-gray-900;
   }
 
   .text-heavy {
